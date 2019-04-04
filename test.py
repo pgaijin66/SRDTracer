@@ -26,4 +26,4 @@ for i in range(line_count):
 pp('Number of packets sent: {}'.format(send_count))
 pp('Number of packet received: {}'.format(received_count))
 pp('Number of packet dropped: {}'.format(dropped_count))
-pp('Simulation tine: {} ms'.format((list_trace[-1].split(' ')[1])))
+pp('Simulation time: {} ms'.format((list_trace[-1].split(' ')[1])))
